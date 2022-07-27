@@ -87,7 +87,7 @@ pipeline {
                                 -H \"Accept: application/vnd.github.v3+json\" \\
                                 -H \"Authorization: token ${GIT_TOKEN}\" \\
                                 https://api.github.com/repos/soubi8/solid-realworld/merges \\
-                                -d '{\"base\":\"main\",\"head\":\"feature\",\"commit_message\":\"Added Jenkinsfile, Dockerfile\"}'
+                                -d '{\"base\":\"main\",\"head\":\"feature\",\"commit_message\":\"Minor edit. Edit appName value\"}'
                         '''
                     }
                 }
