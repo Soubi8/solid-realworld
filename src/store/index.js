@@ -32,7 +32,7 @@ export function Provider(props) {
       page: 0,
       totalPagesCount: 0,
       token: localStorage.getItem("jwt"),
-      appName: "conduit"
+      appName: "Socialize"
     }),
     actions = {},
     store = [state, actions],
